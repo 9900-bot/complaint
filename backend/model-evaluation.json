@@ -1,0 +1,35 @@
+{
+  "membership_threshold": 0.62,
+  "merge_threshold": 0.92,
+  "warning": "Small English diagnostic set, not calibrated probability or a representative accuracy benchmark.",
+  "pairs": [
+    {
+      "example": "near duplicate",
+      "cosine": 0.80876,
+      "assignment_pass": true,
+      "cross_similarity": 0.55113,
+      "merge_pass": false
+    },
+    {
+      "example": "paraphrase",
+      "cosine": 0.33922,
+      "assignment_pass": false,
+      "cross_similarity": 0.09039,
+      "merge_pass": false
+    },
+    {
+      "example": "unrelated",
+      "cosine": 0.2202,
+      "assignment_pass": false,
+      "cross_similarity": 0.08518,
+      "merge_pass": false
+    },
+    {
+      "example": "ambiguous",
+      "cosine": 0.3811,
+      "assignment_pass": false,
+      "cross_similarity": 0.19572,
+      "merge_pass": false
+    }
+  ]
+}

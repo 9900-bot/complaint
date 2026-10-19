@@ -1,0 +1,41 @@
+{
+  "source": "DataMeet Community Maps",
+  "commit": "b3fbbde595310b397a55d718e0958ce249a4fa1f",
+  "crs": "EPSG:4326",
+  "sha256": {
+    "States/Admin2.shp": "b61ebc11a7487ce1c340d55fc9d0c1a2b63af1f73191fef691c11693c726130d",
+    "States/Admin2.shx": "dc428a44ed20384b02c3c5971f2b200b15d429923b6cc770cae940d0af21016a",
+    "States/Admin2.dbf": "4ec2f9b83263c85781bc9abf0d281d441b5e02377be124bda6b5d87bd9dc4ccd",
+    "States/Admin2.prj": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+    "Districts/Census_2011/2011_Dist.shp": "3636e627a519f67b4615b6a97df48c2b279e8c7b2566d3bfbc3eda1d06e33206",
+    "Districts/Census_2011/2011_Dist.shx": "12b6028dfac9e3f20686b3d0a44f9d3989acfdb3f3cda853881d1cf2d8579eab",
+    "Districts/Census_2011/2011_Dist.dbf": "2c7b03578fdf41a4c4e29941a564fa90bf0b0e4f865f5e54481ef7ac8494eb7d",
+    "Districts/Census_2011/2011_Dist.prj": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+    "assembly-constituencies/India_AC.shp": "0e89b00a228b5500d0f7802492c615c34dcb67f72acaf6ec4a66575df0e31e70",
+    "assembly-constituencies/India_AC.shx": "a3149ac8f825771df09a6a956a485059cbba7d28eabfdf35b8b02d41c6d88561",
+    "assembly-constituencies/India_AC.dbf": "687d2487d4aec89a7371bd06e2a7f9566dd2df1dd6e6d8289adc4a0501b2c1fd",
+    "assembly-constituencies/India_AC.prj": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb"
+  },
+  "coverage": {
+    "state": {
+      "source_records": 36
+    },
+    "district": {
+      "source_records": 641
+    },
+    "constituency": {
+      "source_records": 4182
+    }
+  },
+  "imported_counts": {
+    "state": 36,
+    "district": 641,
+    "constituency": 4095
+  },
+  "repaired_geometries": 7,
+  "orphaned_regions": [],
+  "dissolved_multipart_records": 53,
+  "skipped_unidentified_assembly_fragments": 34,
+  "license": "CC BY 2.5 India (layer-specific); repository default CC BY 4.0",
+  "vintage": "Historical state boundaries, Census 2011 districts, historical ECI-scraped Assembly constituencies"
+}
