@@ -8,6 +8,7 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=ROOT / '.env', extra='ignore')
     database_url: str = f"sqlite:///{(ROOT / 'data' / 'atlas.db').as_posix()}"
     geography_path: Path = ROOT / 'data/geography/regions.json'
+    frontend_dist: Path = ROOT / 'frontend/dist'
     bi_encoder: str = 'sentence-transformers/all-MiniLM-L6-v2'
     cross_encoder: str = 'cross-encoder/stsb-TinyBERT-L4'
     bi_revision: str = '1110a243fdf4706b3f48f1d95db1a4f5529b4d41'

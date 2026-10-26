@@ -1,5 +1,7 @@
 # Civic Atlas
 
+**Hosting on Render:** see [DEPLOY_RENDER.md](DEPLOY_RENDER.md) for the full frontend + API deployment. The service must build from the repository root; a Python-only service rooted at `backend` does not build the website.
+
 An India complaint intelligence application for localhost: report a text complaint, explore shared concerns on a real map, and read category, geographic and time-based analytics. Three pages, no accounts. Designed as a modern civic atlas with local fonts, warm reading surfaces and a dark geographic canvas.
 
 Implementation follows [plan.md](plan.md) → [tasks.md](tasks.md). The original supplied specification is preserved in [BRIEF.md](BRIEF.md). This is a standalone local Git repository, separate from the existing party website. No cloud resources or remote repository are created.

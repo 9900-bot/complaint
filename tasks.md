@@ -1,5 +1,15 @@
 # Civic Atlas tasks
 
+## Render deployment repair — 26 October 2026
+- [x] Diagnose backend-only root 404 on the deployed main branch.
+- [x] Add same-origin production frontend routes without hiding missing API/assets.
+- [x] Add build-time frontend/geography/model preparation and runtime-only SQLite migration/import.
+- [x] Verify page/asset/privacy regression tests and startup idempotency.
+- [ ] Apply the tested fix and publish a reviewable branch.
+- [ ] Deploy the branch on Render with root directory cleared and verify the public URL.
+
+Render deployment is not complete until the last checkbox is verified against the live service.
+
 Derived from [plan.md](plan.md). Check items only after implementation and verification.
 
 ## 1. Foundation

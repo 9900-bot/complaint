@@ -14,6 +14,7 @@ from app.geography import Geography
 from app.ml import ModelRuntime
 from app.clustering import ClusterService
 from app.worker import LocalWorker
+from app.frontend import mount_frontend
 from app.queries import PublicQueries
 from app.schemas import (Submission, SubmissionResult, Filters, ComplaintPage, Category, Overview,
                          GeographicCount, TimelinePoint, Trends, RegionPublic, Resolution, GeoJSON, PublicConfig)
@@ -167,6 +168,7 @@ def create_app(sessions=SessionLocal, geography=None, runtime=None, config=setti
     def trends(f: F, q: Q):
         return q.trends(f)
 
+    mount_frontend(app, config.frontend_dist)
     return app
 
 
