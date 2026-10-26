@@ -5,7 +5,7 @@
 - [x] Add same-origin production frontend routes without hiding missing API/assets.
 - [x] Add build-time frontend/geography/model preparation and runtime-only SQLite migration/import.
 - [x] Verify page/asset/privacy regression tests and startup idempotency.
-- [ ] Apply the tested fix and publish a reviewable branch.
+- [x] Apply the tested fix and publish a reviewable branch.
 - [ ] Deploy the branch on Render with root directory cleared and verify the public URL.
 
 Render deployment is not complete until the last checkbox is verified against the live service.
